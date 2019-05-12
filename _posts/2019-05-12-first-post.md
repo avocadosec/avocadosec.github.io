@@ -3,7 +3,7 @@ layout: single
 read_time: true
 title:  "Finally, my first post!"
 date:   2019-05-12 07:29:33 -0700
-categories: jekyll update
+categories: general
 ---
 Welcome to my blog, Avocadosec! This blog is hosted on Github Pages using the minimal mistakes theme which I have configured with Jekyll.
 
