@@ -1,0 +1,57 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+locale: "en-US"
+title: Avocadosec
+email: julian@avocadosec.com
+description: "Welcome to my blog!"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://avocadosec.com" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: avocadosec
+#github_username:  avocadosec
+
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.16.3"
+minimal_mistakes_skin: "sunrise"
+plugins:
+  - jekyll-include-cache
+paginate: 5 # show 5 posts
+paginate_path: /page:num/
+search: true
+author:
+    name: "Julian Harris"
+    avatar: "/assets/images/bio-photo.jpg"
+    bio: "Just an everyday regular normal guy hoping to provide cool content!"
+    location: "Texas"
+    links:
+      - label: "Twitter"
+        icon: "fab fa-fw fa-twitter-square"
+        url: "https://twitter.com/avocadosec"
+      - label: "Github"
+        icon: "fab fa-fw fa-github"
+        url: "https://github.com/avocadosec"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+
+
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
