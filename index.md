@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hello
+title: Welcome to my blog!
 ---
 
 
@@ -8,4 +8,4 @@ title: Hello
 
 Thanks for visiting my blog! 
 
-[Posts](_posts/)
+[Posts](posts/)
