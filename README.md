@@ -15,5 +15,6 @@ security reviews, automated scanning, and more.
 
 [LinkedIn](https://www.linkedin.com/in/avocado)
 
-## Articles (Coming Soon)
+## Posts
+[Things I find neat](posts/2025-0001-neat.md)
 
