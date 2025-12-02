@@ -14,7 +14,7 @@ automated scanning, and more.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/avocadosec/)
+[LinkedIn](https://www.linkedin.com/in/avocado)
 
 ## Articles (Coming Soon)
 
